@@ -1,0 +1,33 @@
+{
+  "required": true,
+  "package": "com.example.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "SimpleOptionMixin",
+    "MinecraftClientAccessor",
+    "MinecraftClientMixin",
+    "GameRendererMixin",
+    "FreeCamMixin",
+    "LivingEntityMixin",
+    "ClientPlayerEntityMixin",
+    "ClientPlayerInteractionManagerMixin",
+    "EntityMixin",
+    "WorldMixin",
+    "SafeWalkMixin",
+    "BackgroundRendererMixin",
+    "LeavesBlockMixin",
+    "WorldRendererMixin",
+    "ParticleManagerMixin",
+    "EntityRenderDispatcherMixin",
+    "EntityRendererMixin",
+    "BlockEntityRenderDispatcherMixin",
+    "ClientPlayNetworkHandlerMixin",
+    "ChatHudMixin",
+    "TitleScreenMixin",
+    "GameMenuScreenMixin",
+    "AbstractClientPlayerEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
